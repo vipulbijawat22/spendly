@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy — Spendly{% endblock %}
+
+{% block content %}
+
+<section class="legal-page">
+    <div class="legal-inner">
+        <h1 class="legal-title">Privacy Policy</h1>
+        <p class="legal-updated">Last updated: March 2026</p>
+
+        <div class="legal-section">
+            <h2>1. Data We Collect</h2>
+            <p>When you use Spendly, we collect only the information necessary to provide the service:</p>
+            <ul>
+                <li>Your name and email address at registration.</li>
+                <li>A hashed (never plain-text) version of your password.</li>
+                <li>Expense records you create: amount, category, date, and optional description.</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>2. How We Use Your Data</h2>
+            <p>Your data is used exclusively to operate Spendly for you:</p>
+            <ul>
+                <li>To authenticate you and secure your account.</li>
+                <li>To display your expense history and spending summaries.</li>
+                <li>To personalise your experience within the app.</li>
+            </ul>
+            <p>We do not use your data for advertising, profiling, or any purpose beyond running the service.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>3. Data Storage</h2>
+            <p>Your data is stored in a secured database. Passwords are hashed using industry-standard algorithms before storage — we cannot read your password. You may delete your account at any time, which permanently removes all associated data.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>4. Third-Party Services</h2>
+            <p>Spendly does not share your personal or financial data with any third parties. We do not integrate advertising networks, analytics providers, or data brokers. The only external resource loaded by the app is Google Fonts, used solely for typography.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>5. Contact Us</h2>
+            <p>If you have questions about this Privacy Policy or how your data is handled, please reach out through the app's support channel. We will respond as promptly as possible.</p>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
